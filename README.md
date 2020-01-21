@@ -32,9 +32,7 @@ You can configure a small set of things by supplying the following environment v
 
 This image has been created with the best intentions and an expert understanding of docker, but it should not be expected to be flawless. Should you be in the position to do so, I request that you help support this repository with best-practices and other additions.
 
-Travis CI and CircleCI has been configured to build the Dockerfile and run acceptance tests on the Atlassian JIRA Software image to ensure it is working.
-
-Travis CI has additionally been configured to automatically deploy new version branches when successfully building a new version of Atlassian JIRA Software in the `master` branch and serves as the base. Furthermore an `eap` branch has been setup to automatically build and commit updates to ensure this branch contains the latest version of Atlassian JIRA Software Early Access Preview.
+CircleCI has been configured to build the Dockerfile and run acceptance tests on the Atlassian JIRA Software image to ensure it is working.
 
 If you see out of date documentation, lack of tests, etc., you can help out by either
 - creating an issue and opening a discussion, or
